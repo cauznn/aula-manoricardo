@@ -247,3 +247,14 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     inicio_principal()?;
     Ok(())
 }
+
+
+fn teste() {
+    let c = Celsius(30.0);
+    let f = (c.0 * 1.8) + 32.0;
+    let k = c.0 + 273.15;
+    println!("F: {}, K: {}", f, k);
+}
+
+from std::error::Error;
+amogus
